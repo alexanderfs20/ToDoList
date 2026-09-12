@@ -45,7 +45,7 @@ function displayTasks() {
         taskText.textContent = task.name;
 
         const checkButton = document.createElement("button");
-        checkButton.textContent = task.completed ? "Batal" : "Selesai";
+        checkButton.textContent = task.completed ? "Batal" : "✓";
 
         checkButton.addEventListener("click", function() {
             task.completed = !task.completed;
@@ -53,7 +53,7 @@ function displayTasks() {
         });
 
         const deleteButton = document.createElement("button");
-        deleteButton.textContent = "Hapus";
+        deleteButton.textContent = "X";
         deleteButton.classList.add("delete-button");
 
         deleteButton.addEventListener("click", function() {
