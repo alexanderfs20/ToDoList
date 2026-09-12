@@ -10,7 +10,7 @@ addButton.addEventListener("click", function() {
     const taskName = taskInput.value;
 
     if (taskName === "") {
-        alert("Masukkan pekerjaan terlebih dahulu!");
+        alert("Belum memasukkan pekerjaan!");
         return;
     }
 
