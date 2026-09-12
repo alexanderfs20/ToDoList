@@ -43,10 +43,6 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #555;
-}
-
 .task {
     display: flex;
     align-items: center;
@@ -68,10 +64,6 @@ button:hover {
 
 .delete-button {
     background-color: #d9534f;
-}
-
-.delete-button:hover {
-    background-color: #c9302c;
 }
 
 @media (max-width: 500px) {
